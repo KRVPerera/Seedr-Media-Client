@@ -9,14 +9,14 @@ public:
 	~cMain();
 
 public:
-	int nFieldWidth = 10;
-	int nFieldHeight = 10;
-	wxButton** btn;
-	int* nField = nullptr;
-	bool bFirstClick = true;
+	wxButton *refreshBtn;
 
-	void OnButtonClicked(wxCommandEvent& evt);
+	void OnRefreshButtonClicked(wxCommandEvent& evt);
 
 	wxDECLARE_EVENT_TABLE();
 };
 
+enum Buttons
+{
+	REFRESH_BUTTON = 1
+};
