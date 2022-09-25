@@ -1,5 +1,6 @@
 #include "cMain.h"
 
+
 wxBEGIN_EVENT_TABLE(cMain, wxFrame)
 EVT_BUTTON(Buttons::REFRESH_BUTTON, OnRefreshButtonClicked)
 wxEND_EVENT_TABLE()
