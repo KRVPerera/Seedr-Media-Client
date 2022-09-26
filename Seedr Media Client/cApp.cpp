@@ -1,9 +1,13 @@
+
 #include "cApp.h"
 
 #include "wx/log.h"
 #include "wx/chartype.h"
 
 #include <nlohmann/json.hpp>
+
+import SeedrManager;
+
 using json = nlohmann::json;
 
 wxIMPLEMENT_APP(cApp);
