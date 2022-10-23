@@ -29,7 +29,7 @@
     <ClCompile Include="cApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SeedrManager.ixx">
+    <ClCompile Include="SeedrManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
